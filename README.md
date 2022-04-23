@@ -1,2 +1,2 @@
-# SpeedLobby
-Lobby system for server SpeedMC
+# SpeedRankUP
+Utilities for rankup server SpeedMC
