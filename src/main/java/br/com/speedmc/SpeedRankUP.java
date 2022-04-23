@@ -5,6 +5,7 @@ import br.com.speedmc.commands.ExecuteExtraVIP;
 import br.com.speedmc.commands.FeedCommand;
 import br.com.speedmc.commands.NewPlayerCommand;
 import br.com.speedmc.listeners.AntiVoid;
+import br.com.speedmc.listeners.PlayerDamageEvent;
 import br.com.speedmc.listeners.PlayerLoginEvent;
 import org.bukkit.Bukkit;
 import org.bukkit.plugin.java.JavaPlugin;
@@ -40,6 +41,7 @@ public class SpeedRankUP extends JavaPlugin {
     public void registerEvents () {
         Bukkit.getPluginManager().registerEvents(new AntiVoid(), this);
         Bukkit.getPluginManager().registerEvents(new PlayerLoginEvent(), this);
+        Bukkit.getPluginManager().registerEvents(new PlayerDamageEvent(), this);
     }
 
     private void loadConfig() {
