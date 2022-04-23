@@ -1,0 +1,36 @@
+# SpeedMC - RankUP
+# Configurações
+
+PrefixBroadCast: "&b&lAVISO ➜ "
+PrefixBroadCastGold: "&6&dCASH ➜ "
+
+NovoJogador:
+  - ''
+  - '&6&lNOVO JOGADOR ➜ &fSeja bem vindo, &b@player&f!'
+  - ''
+
+# ANTIVOID E MUNDO PADRÃO
+MundoSpawn: "Mundo"
+
+#VIP EXTRA
+chance: 1
+comando: "darvip {player} {vip} 30"
+
+VotesLinks:
+  - ""
+
+JoinMessages:
+  - ""
+  - "<center>&a&lNext&f&lMC"
+  - "<center>&7Seja bem-vindo ao &bFullPvP"
+  - ""
+  - " &b&l➜ &7No momento temos &b<players> jogadores &7online."
+  - " &b&l➜ &7Use &b/cidade &7para começar sua casa."
+  - " &b&l➜ &7Use &b/kits &7para receber alguns itens."
+  - " &b&l➜ &7Use &b/arena &7para batalhar."
+  - " &b&l➜ &7Use &b/mina &7para minerar e ganhar dinheiro."
+  - " &b&l➜ &7Use &b/loja &7para comprar e vender itens."
+  - " &b&l➜ &7Use &b/ajuda &7para ver a ajuda completa."
+  - ""
+
+

@@ -1,0 +1,9 @@
+name: SpeedRankUP
+author: Needev
+main: br.com.speedmc.SpeedRankUP
+version: 1.0
+
+commands:
+  broadcast:
+    aliases: [bc, aviso, avisar]
+  bcgold:
