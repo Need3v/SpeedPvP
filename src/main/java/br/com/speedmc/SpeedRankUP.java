@@ -1,6 +1,11 @@
 package br.com.speedmc;
 
 import br.com.speedmc.commands.BroadCastCommand;
+import br.com.speedmc.commands.ExecuteExtraVIP;
+import br.com.speedmc.commands.FeedCommand;
+import br.com.speedmc.commands.NewPlayerCommand;
+import br.com.speedmc.listeners.AntiVoid;
+import br.com.speedmc.listeners.PlayerLoginEvent;
 import org.bukkit.Bukkit;
 import org.bukkit.plugin.java.JavaPlugin;
 
@@ -14,23 +19,27 @@ public class SpeedRankUP extends JavaPlugin {
         loadConfig();
         registerCmds();
         registerEvents();
-        Bukkit.getConsoleSender().sendMessage("̛§b[SpeedLobby] §fPlugin successfully initialized.");
+        Bukkit.getConsoleSender().sendMessage("̛§b[SpeedRankUP] §fPlugin successfully initialized.");
     }
 
     // Actions on plugin disable
     public void onDisable() {
-        Bukkit.getConsoleSender().sendMessage("̛§b[SpeedLobby] §fPlugin successfully disabled.");
+        Bukkit.getConsoleSender().sendMessage("̛§b[SpeedRankUP] §fPlugin successfully disabled.");
     }
 
     // Register plugin commands
     public void registerCmds() {
         getCommand("broadcast").setExecutor(new BroadCastCommand());
         getCommand("bcgold").setExecutor(new BroadCastCommand());
+        getCommand("executarvipextra").setExecutor(new ExecuteExtraVIP());
+        getCommand("feed").setExecutor(new FeedCommand());
+        getCommand("newplayer").setExecutor(new NewPlayerCommand());
     }
 
     // Register plugin events
     public void registerEvents () {
-
+        Bukkit.getPluginManager().registerEvents(new AntiVoid(), this);
+        Bukkit.getPluginManager().registerEvents(new PlayerLoginEvent(), this);
     }
 
     private void loadConfig() {

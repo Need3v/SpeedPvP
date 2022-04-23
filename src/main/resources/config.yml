@@ -11,6 +11,8 @@ NovoJogador:
 
 # ANTIVOID E MUNDO PADRÃO
 MundoSpawn: "Mundo"
+# Mundo cidade: remover danos
+MundoCidade: "Cidade"
 
 #VIP EXTRA
 chance: 1
@@ -21,8 +23,8 @@ VotesLinks:
 
 JoinMessages:
   - ""
-  - "<center>&a&lNext&f&lMC"
-  - "<center>&7Seja bem-vindo ao &bFullPvP"
+  - "<center>&b&lSpeed&f&lMC"
+  - "<center>&7Seja bem-vindo ao &bRankUP"
   - ""
   - " &b&l➜ &7No momento temos &b<players> jogadores &7online."
   - " &b&l➜ &7Use &b/cidade &7para começar sua casa."

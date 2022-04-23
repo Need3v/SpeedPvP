@@ -7,3 +7,7 @@ commands:
   broadcast:
     aliases: [bc, aviso, avisar]
   bcgold:
+  executarvipextra:
+  newplayer:
+  feed:
+    aliases: [comer, comida]
