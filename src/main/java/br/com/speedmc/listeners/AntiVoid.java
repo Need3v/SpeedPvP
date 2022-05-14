@@ -1,6 +1,6 @@
 package br.com.speedmc.listeners;
 
-import br.com.speedmc.SpeedRankUP;
+import br.com.speedmc.SpeedPvP;
 import org.bukkit.Bukkit;
 import org.bukkit.World;
 import org.bukkit.entity.Player;
@@ -17,7 +17,7 @@ public class AntiVoid implements Listener {
         if (!(e.getCause() == EntityDamageEvent.DamageCause.VOID)) return;
         Player p = (Player) e.getEntity();
         if (p.getLocation().getBlockY() < 0) {
-            World defaultWorld = Bukkit.getWorld(SpeedRankUP.getInstance().getConfig().getString("MundoSpawn"));
+            World defaultWorld = Bukkit.getWorld(SpeedPvP.getInstance().getConfig().getString("MundoSpawn"));
             e.setCancelled(true);
             p.sendMessage("§aUfa! Te salvei dessa vez!");
             p.teleport(defaultWorld.getSpawnLocation());

@@ -1,6 +1,6 @@
 package br.com.speedmc.commands;
 
-import static br.com.speedmc.SpeedRankUP.*;
+import static br.com.speedmc.SpeedPvP.*;
 import org.bukkit.Bukkit;
 import org.bukkit.command.*;
 import org.bukkit.entity.Player;

@@ -1,8 +1,8 @@
 <component name="ArtifactManager">
   <artifact type="jar" name="SpeedRankUP:jar">
     <output-path>$PROJECT_DIR$/../Jars</output-path>
-    <root id="archive" name="SpeedRankUP.jar">
-      <element id="module-output" name="SpeedRankUP" />
+    <root id="archive" name="SpeedPvP.jar">
+      <element id="module-output" name="SpeedPvP" />
     </root>
   </artifact>
 </component>

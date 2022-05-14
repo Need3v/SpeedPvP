@@ -1,6 +1,6 @@
 package br.com.speedmc.listeners;
 
-import static br.com.speedmc.SpeedRankUP.*;
+import static br.com.speedmc.SpeedPvP.*;
 import org.apache.commons.lang.StringUtils;
 import org.bukkit.Bukkit;
 import org.bukkit.ChatColor;

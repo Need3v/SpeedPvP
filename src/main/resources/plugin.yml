@@ -1,6 +1,6 @@
-name: SpeedRankUP
+name: SpeedPvP
 author: Needev
-main: br.com.speedmc.SpeedRankUP
+main: br.com.speedmc.SpeedPvP
 version: 1.0
 
 commands:

@@ -3,7 +3,7 @@ package br.com.speedmc.commands;
 import org.bukkit.Bukkit;
 import org.bukkit.command.*;
 import org.bukkit.entity.Player;
-import static br.com.speedmc.SpeedRankUP.*;
+import static br.com.speedmc.SpeedPvP.*;
 
 public class BroadCastCommand implements CommandExecutor {
 
