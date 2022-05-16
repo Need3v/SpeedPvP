@@ -1,2 +1,2 @@
-# SpeedRankUP
-Utilities for rankup server SpeedMC
+# SpeedPvP
+Utilities for fullpvp server SpeedMC
