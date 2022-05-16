@@ -11,3 +11,6 @@ commands:
   newplayer:
   feed:
     aliases: [comer, comida]
+  setchain:
+  chain:
+  comprarpasse:
