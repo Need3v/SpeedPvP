@@ -1,2 +1,2 @@
 # SpeedPvP
-Utilities for fullpvp server SpeedMC
+Minecraft Plugin of utilities for fullpvp server SpeedMC
